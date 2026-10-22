@@ -9,9 +9,79 @@
         body {
             background-color: black;
         }
+        #Student{
+            color: cyan;
+        }
+        .box{
+            background-color: rgb(55, 55, 55);
+            text-align: center;
+            align-items: center;
+            letter-spacing: 0.4px;
+            color: white;
+            margin: 30px;
+            padding: 30px;
+            width: 300px;
+            height: 50px;
+            font-size: 20px;
+        }
+        table {
+            width: 80%;
+            height: auto;
+        }
+        tr, td, th {
+            border: 1px solid white;
+            text-align: center;
+            color: black;
+        }
+        tbody {
+            background-color: white;
+            font-size: large;
+            color: white;
+        }
+        thead {
+            background-color: white;
+            font-size: large;
+        }
+        tfoot {
+            background-color: gray;
+            border: 1px soild gray;
+            font-size: large;
+        }
+        .form {
+            width: 350px;
+            height: 200px;
+            padding: 10px;
+            border: 1px soild gray;
+            border-radius: 5px;
+            background-color: aliceblue;
+            box-shadow: 1px 1px 1px 1px rgb(94, 94, 94);
+        }
+        .formcontroller {
+            padding: 10px;
+        }
+        input[type="text"] {
+            width: 220px;
+            height: 35px;
+        }
+        input[type="password"] {
+            width: 220px;
+            height: 35px;
+        }
+        label {
+            font-size: large;
+            width: 80px;
+            display: inline-block;
+        }
+        button {
+            padding: 10px 135px;
+            background-color: white;
+            color: black;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
+
     <!-- Heading 1 -->
     <h1 style="color: white;">
         Mike Tyson
@@ -21,6 +91,7 @@
         Welcome to my page! I am a <b>Web Developer</b> based in <i>California</i>. I specialize in building <u>responsive websites</u> and applicatiions.
     </p1>
     <hr>
+
     <!-- H1 P2 -->
     <p2 style="color: white;">
         <b>Status:</b>
@@ -28,6 +99,7 @@
         </span>
     </p2>
     <br>
+
     <!-- H1 P3 -->
     <p3>
         <b style="color: white;">Email:</b>
@@ -35,6 +107,7 @@
         </span>
     </p3>
     <br>
+
     <!-- H1 P4 -->
     <p4>
         <b style="color: white;">Location:</b>
@@ -43,12 +116,14 @@
     </p4>
     <br>
     <hr>
+
     <!-- Heading 2 -->
     <h1>
         <b style="color: white;">
             The Secret to Authenic Artisan Pizza
         </b>
     </h1>
+
     <!-- H2 P1 -->
      <p1 style="color: white;">
         <b>Published:</b>
@@ -57,6 +132,7 @@
         October 2026
      </span>
      <br>
+
      <!-- H2 P2 -->
      <p2 style="color: white;">
         <b>Category:</b>
@@ -65,6 +141,7 @@
         Culinary Arts
      </span>
      <br>
+
      <!-- H2 P3 -->
      <p3 style="color: white;">
         <b>Author:</b>
@@ -74,6 +151,7 @@
      </p3>
      <br>
      <br>
+
      <!-- H2 P4 -->
      <p4 style="color: white;">
         Making restaurant-quality pizza at home requires <b><i>high heat</i></b> and patience. The most common mistake is <u>rushing the dough fermentation process.</u>
@@ -88,10 +166,12 @@
        . Never use a rolling pin-always stretch your doughby hand to preserve crucial air pockets!
      </p4>
      <hr>
+
      <!-- Heading 3 -->
      <h1 style="color: white;">
         Classic Margherita Pizza Recipe
      </h1>
+
      <!-- H3 P1 -->
      <p1 style="color: white;">
         <b>
@@ -102,6 +182,7 @@
         </span>
      </p1>
      <br>
+
      <!-- H3 P2 -->
       <p2 style="color: white;">
         <b>
@@ -112,6 +193,7 @@
         </span>
       </p2>
       <br>
+
       <!-- H3 P3 -->
       <p3 style="color: white;">
         <b>
@@ -124,6 +206,7 @@
         </span>
       </p3>
       <br>
+
     <!-- H3 P4 -->
      <p4 style="color: white;">
         <b>
@@ -141,6 +224,7 @@
         </span>
      </p4>
      <br>
+
     <!-- H3 P5 -->
      <p5 style="color: white;">
         <b>
@@ -164,7 +248,126 @@
         <span style="color: rgb(61, 249, 61);">
             Tested & Verified
         </span>
-
      </p6>
+     <hr>
+
+<!-- ID Config/Div-->
+      <h1 id="Student">
+        Chopped
+      </h1>
+      <div class="box">
+        Column 1
+    </div>
+    <div class="box" style="color: rgb(255, 255, 255);">
+        Column 2
+    </div>
+    <hr>
+    
+<!-- List, Description List, order list, Unorder List (ol, dd, dt, dl, ul) -->
+ <h1 style="color: white;">
+    Order list (ol)
+ </h1>
+ <ol style="color: white;">
+    <ld>Counting Years</ld>
+    <li>Year 1</li>
+    <li>Year 2</li>
+    <li>Year 3</li>
+    <li>Year 4</li>
+ </ol>
+<hr>
+ <h2 style="color: white;">
+    Unorder list (ul)
+ </h2>
+ <ul style="color: white;">
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>HTML</li>
+ </ul>
+ <hr>
+ <h2 style="color: white;">
+    Description Terms (dd), Description List (dl), Description Details (dl)
+ </h2>
+ <dt style="color: cyan;">HTML</dt>
+ <dd style="color: white;">Skeleton</dd>
+ <dt style="color: cyan;">CSS</dt>
+ <dd style="color: white;">Styling</dd>
+ <dt style="color: cyan;">JavaScript</dt>
+ <dd style="color: white;">responsive</dd>
+ <hr>
+
+<!-- Table -->
+ <h1 style="color: white;">Table Of Content</h1>
+ <table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>GENDER</th>
+            <th>DOB</th>
+            <th>MAJOR</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>000001</td>
+            <td>Vitou</td>
+            <td>M</td>
+            <td>05/04/2000</td>
+            <td>Marketing</td>
+        </tr>
+        <tr>
+            <td>000002</td>
+            <td>Visal</td>
+            <td>M</td>
+            <td>01/01/1990</td>
+            <td>Accounting</td>
+        </tr>
+        <tr>
+            <td>000003</td>
+            <td>Varith</td>
+            <td>M</td>
+            <td>09/08/1000</td>
+            <td>Business</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <th scope="row">
+            <td>Total</td>
+            <td>3 Participations</td>
+        </th>
+    </tfoot>
+ </table>
+ <hr>
+ 
+<!-- Input/Label/Placeholder/Form -->
+  <h1 style="color: white;">
+    Input/Label/Placeholder/Form
+  </h1>
+  <form action="">
+    <div class="formcontroller">
+        <label for="username" style="color: white;">
+            Username:
+        </label>
+        <input 
+        type="text"
+        id="username"
+        placeholder="Username here"
+        name="username"/>
+    </div>
+    <div class="formcontroller">
+        <label for="password" style="color: white;">
+            Password:
+        </label>
+        <input 
+        type="password"
+        id="password"
+        placeholder="Password here"/>
+    </div>
+    <div class="formcontroller">
+        <button type="submit">
+            Login
+        </button>
+    </div>
+  </form>
  </body>
 </html>
